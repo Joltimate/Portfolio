@@ -13,7 +13,7 @@
 :root{
     --color-bg: #1f0452;
     --color-bg-varient: #40027D;
-    --color-primary: #944be7;
+    --color-primary: #dd0ccc;
     --color-primary-varient: #7108E3;
     --color-white:white;
     --color-light: rgb(255, 255, 255, 0.6);
@@ -100,7 +100,7 @@ a:hover{
     border-color: transparent;
 }
 
-.tn-primary{
+.btn-primary{
     background:var(--color-primary);
     color: var(--color-bg);
 }
