@@ -1,8 +1,12 @@
 import React from 'react'
 import './nav.css'
+import {BiHome} from 'react-icons/bi'
+
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+      <a href="#"><BiHome/></a>
+    </nav>
   )
 }
 
