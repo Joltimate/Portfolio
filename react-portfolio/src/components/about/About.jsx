@@ -2,8 +2,8 @@ import React from 'react'
 import './about.css'
 import MECrop from '../../assets/MECrop.jpg'
 import {FaAward, FaUniversity} from 'react-icons/fa'
-import {FcDiploma1} from 'react-icons/fc'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {MdOutlineSchool} from 'react-icons/md'
 
 
 function About() {
@@ -28,15 +28,16 @@ function About() {
             </article>
 
             <article className='about__card'>
-              <FcDiploma1 className='about__icon'/>
+              <MdOutlineSchool className='about__icon'/>
               <h5>Degree</h5>
-              <small>Computer Science and Computer Engineering</small>
+              <small>Computer Science & Engineering</small>
             </article>
 
             <article className='about__card'>
               <FaUniversity className='about__icon'/>
-              <h5>University of Louisville</h5>
-              <small></small>
+              <h5>Graduated</h5>
+              <small>The
+                University of Louisville</small>
             </article>
 
             <article className='about__card'>
@@ -44,16 +45,15 @@ function About() {
               <h5>Projects</h5>
               <small>20+ Completed</small>
             </article>
-
-            <p>
-              I am currently a .Net Junior Developer. In 2022, I graduated from the University of Louisville with a degree in Computer Science and Computer Engineering. I am currently working for The Rawlings Group in La Grange KY.
-              I am a full stack developer but prefer front end developing
-            </p>
+          </div>
+          <p>
+              I am currently a .Net Junior Developer.  I am currently working for The Rawlings Group in La Grange KY. I am a full stack developer but prefer front end developing
+          </p>
             
             <a href="#contact" className='btn btn-primary'> Lets Talk</a>
-          </div>
 
         </div>
+        
       </div>
 
     </section>
